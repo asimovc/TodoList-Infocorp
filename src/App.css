@@ -1,0 +1,109 @@
+body {
+	font-family: Arial;
+	background-color: #F4f4f4;
+	padding: 30px;
+	color: #333;
+  background-image: url("./img/infocorp-logo.jpg");
+  background-position: 0 0, center;
+}
+
+.app {
+	max-width: 600px;
+	margin: 0 auto 300px;
+	background-color: #efefef;
+	padding: 20px 30px;
+	border-radius: 10px;
+}
+
+h1 {
+	text-align: center;
+}
+
+h2 {
+	margin-bottom: 10px;
+}
+
+p {
+	margin: 10px 0;
+	font-weight: bold;
+}
+
+input {
+	box-sizing: border-box;
+}
+
+button {
+  background-color: #0E76BD;
+  color: #fff;
+  padding: 5px 10px;
+  margin-right: 10px;
+  border: none;
+ 	border-radius: 3px;
+  cursor: pointer;
+  transition: 0.3s;
+	font-weight: bold;
+}
+
+button:hover {
+  opacity: 1;
+}
+
+.todo-list {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #555;
+}
+
+.todo {
+  background-color: #FFF;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+	font-size: 22px;
+}
+
+.complete {
+  background-color: #0E76BD;
+}
+
+.remove {
+  background-color: #d9534f;
+}
+
+.todo-form {
+  padding-bottom: 1.5rem;
+}
+
+input, 
+select {
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #DDD;
+  border-radius: 3px;
+  width: 100%;
+}
+
+.filter, 
+.search {
+	border-bottom: 1px solid #555;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+}
+
+.filter-options {
+	display: flex;
+	justify-content: space-between;
+	gap: 7rem;
+}
+
+.filter-options div {
+	flex: 1 1 0;
+}
+
